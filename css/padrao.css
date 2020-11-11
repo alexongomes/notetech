@@ -1,0 +1,316 @@
+@charset "UTF-8";
+body {
+  font-family: 'Play', sans-serif;
+  /* background-color: #e1e3cc; */ }
+
+header {
+	border-top: 3px solid #eb8773;
+	border-bottom: 2px solid #eb8773;
+	height: 123px;
+   }
+.caixatitulo{
+	width: 100%;
+	background: linear-gradient(90deg, rgba(255,255,255,.1), rgba(255,255,255,.4) 49%, rgba(255,255,255,0) 50%, rgba(255,255,255,.4));
+	background-image: linear-gradient(45deg, white, purple);
+}
+.caixa {
+	width: 90%;
+	margin: 0 auto;
+	height: 100%;
+}
+.nav {
+  float: right;
+  padding: 10px 0 0 0; }
+
+.nav ul {
+  
+  padding: 10px 0 0 0;
+  right: 0px;
+  z-index: 99; }
+
+.nav li {
+  display: inline;
+  padding: 0px 15px; }
+
+.nav a {
+  color: #eb8773;
+  text-decoration: none;
+  font-family: 'Play', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 1s all; }
+
+.nav a:hover {
+  color: red;
+  border: 2px solid yellow;
+  border-style: solid none; }
+
+ .caixa-do-main{
+ 	background-image: url("img/fundocab12.jpg");
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	
+ 	border-bottom: 2px solid #eb8773;
+	float: right;
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	opacity: 1;
+	z-index: 0; }
+.servico {
+	
+	background-repeat: no-repeat;
+
+	/*background-color: rgba(0,0,0,0.5);*/
+	background-color: wheat;
+   	border: 2px solid #eb8773;
+   	height: 26em;
+   	/*box-shadow: -5px 10px 16px 0px rgba(0,0,0,0.75);*/
+  	border-radius: 25px;
+ 	background-size: 23em;
+  	width: 23em;
+  	display: inline-block;
+  	margin: 1em 0 3% 1.4em;
+  	line-height: 1.5em;
+  	padding-bottom: 2em; }
+
+.itens-servico li {
+  	font-size: 1.6em;
+  	list-style: none;
+  	color: 	#000;
+  	font-weight: bold;
+ 	padding: .6em;
+  	width: 14.8em;
+  	text-shadow: 2px 2px 3px #fff;
+   }
+ 
+.titulocaixa {
+	border-radius: 25px 25px 0 0;
+	color: #fff;
+	font-size: 1.8em;
+	background: #c24e4b;
+	text-align: center;
+	height: 2.3em;
+	padding-top: .4em;
+	margin-top: 0;
+	margin-bottom: 1em;
+   }
+.bemvindo{
+	width: 50%;
+	height: 20em;
+	margin: 1em 0 0 5%;
+	line-height: 1.5em;
+
+}
+.bemvindo h2{
+	color: white;
+	font-size: 1em;
+	text-shadow: 3px 3px 5px #000;
+	font-style: italic;
+}
+.bemvindo h1{
+	color: white;
+	font-size: 1.3em;
+	text-shadow: 2px 2px 5px #000;
+}
+.bemvindo img{
+	float: left;
+	vertical-align: middle;
+	margin-left: 10%;
+}
+.fone{
+	color: #eb8773;
+}
+
+main {
+	background: linear-gradient(#FEFEFE, #888888);
+}
+/** Footer **/
+footer {
+  display: table;
+  position: relative;
+  width: 100% }
+
+footer::after {
+  content: "";
+  background: url(img/fundo-rodape.png);
+  opacity: .02;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
+
+footer::before {
+  content: "";
+  background: #362f27;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
+
+footer .container {
+	width: 90%;
+	margin: 0 auto;
+  	padding-top: : 3em;
+  	height: 8.5em;
+
+  	position: relative; }
+
+footer .container img {
+  width: 250px; }
+
+.menu-rodape,
+.social {
+  position: absolute; }
+
+.menu-rodape ul li {
+  display: inline-block;
+  margin-left: 2em; }
+
+.menu-rodape {
+  top: 1em;
+  right: 0; }
+
+.social {
+	padding-bottom: 1em;
+  	bottom: 0;
+  	right: 0; }
+
+.menu-rodape li {
+  display: inline; }
+
+footer a {
+  color: #fff;
+  text-decoration: none; }
+
+.social li {
+  	float: left; }
+
+.social li a {
+  	display: block;
+  	width: 55px;
+  	height: 55px;
+  	text-indent: -9999px;
+  	overflow: hidden;
+  	background-repeat: no-repeat;
+  	margin-left: 1em; }
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 5px 75px 7px;
+}
+
+.social a {
+  background-position: top;
+  background-size: 50px 50px; }
+
+.social a[href*="facebook"] {
+  background-image: url(img/facebook.png); }
+
+.social a[href*="twitter"] {
+  background-image: url(img/twitter.png); }
+
+.social a[href*="instagram"] {
+  background-image: url(img/instagram.png); }
+
+
+
+  /*  MIDIA QUERIES. adapatação para navegação mobile*/
+  
+@media screen and (max-width: 600px) {
+	body{
+		/*background: #ff0000; */
+		width: 100%;
+
+	}
+	footer::after {
+	  content: "";
+	  background: url(img/fundo-rodape.png);
+	  opacity: .02;
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  position: absolute;
+	  z-index: -1; 
+	  height: 13em;}
+
+	footer::before {
+	  content: "";
+	  background: #362f27;
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  position: absolute;
+	  z-index: -1; 
+	  height: 13em;}
+
+	.social {
+		top: 10px;
+		position: static;
+		padding-top: 1em;
+	}
+
+	.menu-rodape {
+		padding-top: 1em;
+  		position: static; }
+
+	.caixa, .principal, .mapa-conteudo, .conteudobeneficio, .video {
+		width: 100%;
+		margin: 0 auto;
+		height: auto;
+
+
+
+	}
+	.servico{
+		width: 90%;
+
+
+	}
+	.itens-servico li {
+	  	font-size: 1.3em;
+	  	list-style: none;
+	  	color: 	#000;
+	  	font-weight: bold;
+	 	padding: .6em;
+	  	width: 14.8em;
+	  	text-shadow: 2px 2px 3px #fff;
+   }
+
+	.bemvindo{
+		text-align: center;
+		width: 90%;
+		margin: 0 auto;
+		padding: 1em;
+	
+
+	}
+	.bemvindo img{
+		float: left;
+		vertical-align: middle;
+		margin-left: 30%;
+	}
+
+	h1{
+		text-align: center;
+
+	}
+	nav{
+		position: static;
+
+	}
+	.conteudobeneficio, .imgbeneficios{
+		width: 100%;
+
+	}
+	.menu-rodape ul li {
+  		display: inline-block;
+  		margin-left: 0.6px; }
+}

@@ -1,0 +1,42 @@
+  /*
+    Flaticon icon font: Flaticon
+    Creation date: 18/02/2016 10:24
+    */
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../font/Flaticon.eot");
+  src: url("../font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../font/Flaticon.woff") format("woff"),
+       url("../font/Flaticon.ttf") format("truetype"),
+       url("../font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+font-style: normal;
+margin-left: 0px;
+
+}
+
+.flaticon-apple:before { content: "\f100"; }
+.flaticon-cogwheel:before { content: "\f101"; }
+.flaticon-computer:before { content: "\f102"; }
+.flaticon-computer-1:before { content: "\f103"; }
+.flaticon-computer-2:before { content: "\f104"; }
+.flaticon-fashion:before { content: "\f105"; }
+.flaticon-money:before { content: "\f106"; }
+.flaticon-technology:before { content: "\f107"; }
+.flaticon-technology-1:before { content: "\f108"; }
+.flaticon-tool:before { content: "\f109"; }
+.flaticon-video:before { content: "\f10a"; }
